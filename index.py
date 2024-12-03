@@ -60,7 +60,7 @@ for a,b in data_panen.items():
     else:
         print("Kondisi : Dalam kondisi baik\n")
 
-    padi_kedelai[a]['hasil_panen'] = {
+    padi_kedelai[a] = {
         'padi' : b['hasil_panen']['padi'],
         'kedelai' : b['hasil_panen']['kedelai']
     }
@@ -71,5 +71,4 @@ print(f"Hasil panen jagung di lokasi2 adalah {jagungLok2}\n")
 namaLok3 = data_panen['lokasi3']['nama_lokasi']
 print(f"Nama lokasi dari lokasi 3 adalah {namaLok3}\n")
 
-print(padi_kedelai)
 
