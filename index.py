@@ -43,7 +43,7 @@ data_panen = {
 
 padi_kedelai = {}
 
-print("Data hasil panen dari berbagai lokasi :")
+print("Data hasil panen :")
 for a,b in data_panen.items():
     padi = b['hasil_panen']['padi']
     jagung = b['hasil_panen']['jagung']
