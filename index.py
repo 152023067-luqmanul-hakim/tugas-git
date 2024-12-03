@@ -60,7 +60,7 @@ for a,b in data_panen.items():
     else:
         print("Kondisi : Dalam kondisi baik\n")
 
-    padi_kedelai[a] = {
+    padi_kedelai[a]['hasil_panen'] = {
         'padi' : b['hasil_panen']['padi'],
         'kedelai' : b['hasil_panen']['kedelai']
     }
