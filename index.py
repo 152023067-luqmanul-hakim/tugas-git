@@ -65,7 +65,7 @@ for a,b in data_panen.items():
         'kedelai' : b['hasil_panen']['kedelai']
     }
 
-print("Data spesifik beberapa lokasi : ")
+print("Data spesifik lokasi 2 dan 3 : ")
 jagungLok2 = data_panen['lokasi2']['hasil_panen']['jagung']
 print(f"Hasil panen jagung di lokasi2 adalah {jagungLok2}")
 
